@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            main {
+                display: flex;
+                align-items: center;
+                grid-gap: 20px;
+                text-align: center;
+            }
+
+            .project-card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100px;
+                height: 100px;
+                background-color: #f1f5f8;
+                margin: 10px;
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease-in-out;
+            }
+
+            .project-card:hover {
+                transform: scale(1.05);
+            }
+
+            .project-card a {
+                text-decoration: none;
+                color: #333;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <!-- Link all projects here -->
+
+        <main>
+            <a href="./01-color-flipper/final/index.html" class="project-card">
+                Color Flipper
+            </a>
+            <a href="./02-counter/final/index.html" class="project-card">
+                Counter
+            </a>
+            <a href="./06-modal/final/index.html" class="project-card">
+                Modal
+            </a>
+
+        </main>
+    </body>
+
+</html>
